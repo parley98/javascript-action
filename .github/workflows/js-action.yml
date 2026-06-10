@@ -14,4 +14,4 @@ jobs:
         with:
           number1: 4
           number2: 2
-        runs: echo ${{ steps.jsAction.outputs.result }}
+        run: echo ${{ steps.jsAction.outputs.result }}

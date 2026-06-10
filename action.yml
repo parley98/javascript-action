@@ -1,0 +1,16 @@
+name: jsAction
+description: calulator to test Javascript action
+inputs:
+  number1:
+    required: true
+    default: 0
+  number2:
+    required: true
+    default: 0
+outputs:
+  result:
+    description: "output of the sum of the two numbers"
+
+runs:
+  using: "node22"
+  main: "dist/index.js"
